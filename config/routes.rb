@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-  resources :admins
-  resources :home
-  root to: 'admins#index'
+  resources :users
+  root to: 'users#index'
 end
